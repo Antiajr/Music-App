@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+<body>
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img bg-overlay" style="background-image: url({% static 'images/bg-img/breadcumb.jpg' %});">
+        <div class="bradcumbContent">
+            <p>See what’s new</p>
+            <h2>Contact</h2>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+
+    <h1>hello user</h1>
+
+{% include 'footer.html' %}
+
+{% endblock content %}
+</body>
+</html>
